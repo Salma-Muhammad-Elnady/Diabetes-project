@@ -21,10 +21,8 @@ def predict():
             DiabetesPedigreeFunction = float(request.form['DiabetesPedigreeFunction'])
             Age = int(request.form['Age'])
 
-            # تشكيل بيانات الإدخال
             data = np.array([[Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
 
-            # التنبؤ باستخدام النموذج
             prediction = model.predict(data)
             if prediction[0] == 1:
                 result = 'The patient is infected'

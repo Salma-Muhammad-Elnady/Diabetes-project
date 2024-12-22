@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/style.css') }}">
+    <script>
+        window.onload = function() { 
+            document.querySelector('form').reset(); 
+        };
+    </script>
+</head>
+<body>
+    <div class="form">
+    </div>
+    <h1>Please put the information here</h1>
+    <form action="/predict" method="POST" autocomplete="off">
+
+        <div class="input">
+        <input type="number" name="Glucose" step="any" placeholder="Glucose" required>
+        </div>
+
+        <div class="input">
+        <input type="number" name="BloodPressure" step="any" placeholder="Blood Pressure" required>
+        </div>
+
+        <div class="input">
+        <input type="number" name="SkinThickness" step="any" placeholder="Skin Thickness" required>
+        </div>
+
+        <div class="input">
+        <input type="number" name="Insulin" step="any" placeholder="Insulin" required>
+        </div>
+        
+        <div class="input">
+        <input type="number" name="BMI" step="any" placeholder="BMI" required>
+        </div>
+
+        <div class="input">
+        <input type="number" name="DiabetesPedigreeFunction" step="any" placeholder="Diabetes Pedigree Function" required>
+        </div>
+
+        <div class="input">
+        <input type="number" name="Age" step="any" placeholder="Age" required>
+        </div>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

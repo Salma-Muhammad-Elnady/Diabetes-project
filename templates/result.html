@@ -1,0 +1,26 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="prediction-result">Prediction Result</h1>
+    <p>{{ prediction }}</p> 
+    <div class="advice">
+        {% if prediction == 'The patient is infected' %}
+            <p>It is advisable to consult a healthcare professional for further testing and advice.</p>
+        {% else %}
+            <p>Maintain a healthy lifestyle with balanced diet and regular exercise.</p>
+        {% endif %}
+    </div>
+    <a href="/" class="button">Check Another Prediction</a>
+</body>
+</html>
+
+
+  

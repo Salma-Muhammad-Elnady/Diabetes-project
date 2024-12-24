@@ -18,7 +18,31 @@ A web application to determine whether a person has diabetes or not, using the X
 
 ### 2. Data Analysis:
 * Explore data and analyze different features.
-* 
+* Creating visualizations to highlight the relationships between different features and the outcome. 
+
+### 3. Data processing and cleaning: 
+* Data cleaning by removing the unimportant feature that does not have a significant impact on the result.
+
+### 4. Model Building:
+* Try different algorithms like: Logistic regression, KNN, SVM, Random forest, Decision tree, XGBoost.
+*  Each model is evaluated based on precision, recall, and roc-auc, and the best model in terms of precision, recall, and roc-auc is selected for use in predicting the outcome in the web application based on user input.
+  
+### 5. Model improvement:
+* Improving the model using techniques such as cross-validation and feature engineering.
+* Compare the different models and choose the one that provides the best result.
+
+### 6. Model Deployment:
+* Save the Best Model: Save the trained model to a file (using joblib or pickle).
+* Create a Flask Web Application: Develop a web application using Flask to serve the model.
+* Build User Interface: Create an interface using HTML and CSS for users to input their health data.
+* Integrate Model with Web App: By uploading the saved model in the Flask application and using it to generate predictions based on user inputs.
+* Running the model: By testing it with data input to make a prediction of the result.
+
+# Project goal:
+* Developing a web application using the XGBoost model to predict diabetes based on a set of input data with high prediction accuracy.    
+
+# Web application images and prediction results: 
+
 
 
 

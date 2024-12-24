@@ -1,1 +1,1 @@
-# ** Web app to determine diabetes diagnosis **
+# **Web app to determine diabetes diagnosis**

@@ -25,11 +25,10 @@ def predict():
 
             prediction = model.predict(data)
             if prediction[0] == 1:
-                result = 'The patient is infected'
-                result_class = 'infected'  
+                
+                result = 'The person has diabetes.'
             else:
-                result = 'Not infected'
-                result_class = 'not-infected'
+                result = 'The person does not have diabetes.'
             
 
             return render_template('result.html', prediction=result)

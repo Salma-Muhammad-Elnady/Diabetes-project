@@ -10,13 +10,13 @@
 <body>
     <div class="container">
         <h1 class="prediction-result">Prediction Result</h1>
-    <p>{{ prediction }}</p> 
-    <div class="advice">
-        {% if prediction == 'The patient is infected' %}
-            <p>It is advisable to consult a healthcare professional for further testing and advice.</p>
-        {% else %}
-            <p>Maintain a healthy lifestyle with balanced diet and regular exercise.</p>
-        {% endif %}
+        <p>{{ prediction }}</p>
+<div class="advice">
+    {% if prediction == 'The person has diabetes.' %}
+        <p>This result does not replace a medical consultation and undergoing a medical examination for reassurance, I wish you good health.</p>
+    {% else %}
+        <p>Maintain a healthy lifestyle with a balanced diet and regular exercise.</p>
+    {% endif %}  
     </div>
     <a href="/" class="button">Check Another Prediction</a>
 </body>

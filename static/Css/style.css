@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to right, #067e46, #077dac);
+    background: linear-gradient(to left, #07a18d, #046b85);
 }
 
 h1 {
@@ -71,7 +71,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="submit"] {
     display: inline-block;
     border-radius: 4px;
-    background-color: #3db1e7;
+    background-color: #26b2f3;
     border: none;
     color: #ffffff;
     text-align: center;
@@ -85,7 +85,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #39e2cc;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .result {

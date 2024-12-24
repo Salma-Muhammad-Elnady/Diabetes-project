@@ -10,10 +10,15 @@ A web application to determine whether a person has diabetes or not, using the X
 # Technologies Used :
 * Frontend: HTML, CSS, JavaScript.
 * Backend: Python, Flask.
-* Machine learning: logistic regression, KNN, SVM, random forest, decision tree, XGBoost, and XGBoost was chosen as the best model in terms of precision, recall, and, ROC-AUC for predicting diabetes outcomes in a web application.      
+* Machine learning: logistic regression, KNN, SVM, random forest, decision tree, XGBoost, and XGBoost was chosen as the best model in terms of precision, recall, and, ROC-AUC for predicting diabetes outcomes in a web application.
  
+ # Project steps : 
+ ### 1. Data Import:
++ Download the Diabetes dataset from Kaggle.
 
-
+### 2. Data Analysis:
+* Explore data and analyze different features.
+* 
 
 
 

@@ -39,7 +39,8 @@ A web application to determine whether a person has diabetes or not, using the X
 * Running the model: By testing it with data input to make a prediction of the result.
 
 # Project goal:
-* Developing a web application using the XGBoost model to predict diabetes based on a set of input data with high prediction accuracy.    
+* Developing a web application using the XGBoost model to predict diabetes based on a set of input data with high prediction accuracy.
+# XG-Boost Results:
 
 # Web application images and prediction results: 
 ### 1. Data entry form .
